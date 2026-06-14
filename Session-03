@@ -1,1 +1,5 @@
-
+# Self-Hosted-Lab
+Creating documentation of self hosted server & lab 
+Installed Ubuntu server in VirtualBox
+Need to add an SSH connection as per another github account directions.
+Checked to see if existing SSH keys are present.
