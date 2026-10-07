@@ -36,15 +36,14 @@ free -h
 Connect via SSH
 ```
 ssh labuser@192.168.0.58
-```
-
+``
 ## Observations
 1. The server has 15 GB free after installation
 2. RAM useage was at 500 MB at idle
 3. The SSH connection was instant after first connection was established
 4. SSH has remembered the VM as trusted connection after confirming first connect
 
-## Session Checklist
+### Session Checklist
 - [x] Ubuntu server installed
 - [x] SSH access confirmed
 
