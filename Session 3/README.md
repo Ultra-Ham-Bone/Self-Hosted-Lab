@@ -1,6 +1,10 @@
 # Lab 3 - Docker
 
-## Some troubleshooting & steps taken
+## Resources
+
+https://docs.docker.com/engine/install/ubuntu
+
+## Initial Steps Taken
 
 - Unable to get IP, returns 127.0.0.1
 - Returns ‘not connected to the network’
