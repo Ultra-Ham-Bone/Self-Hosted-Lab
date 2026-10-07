@@ -37,6 +37,7 @@ Connect via SSH
 ```
 ssh labuser@192.168.0.58
 ```
+
 ## Observations
 1. The server has 15 GB free after installation
 2. RAM useage was at 500 MB at idle
