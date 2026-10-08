@@ -45,16 +45,11 @@ File browser is a web-based file manager that gives private access to files on a
 <img width="297" height="46" alt="image" src="https://github.com/user-attachments/assets/176c3475-aea1-4c17-a130-b0f1ceef1f18" />
 
 # Notes
-- ‘echo’; means write
-- Files with a dot before them are hidden; .env
 - Every time Docker is changed it will have new password.
 - **Lists all files:** ls -a
 - **Tried adding to CLI:**
 -  echo "UID=$(id -u)" >> .env
 -  echo "GID=$(id -g)" >> .env
-- **Then:** 
-- docker compose up 
-- 'd' to detach
 
 **Returns:**
 <img width="468" height="252" alt="image" src="https://github.com/user-attachments/assets/9b950ce7-cb39-4f85-b60a-ed0f5fc18452" />
