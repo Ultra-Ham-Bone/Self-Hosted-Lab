@@ -1,4 +1,4 @@
-# Week 02 - Linux Ubuntu and SSH
+# Lab 2 - Linux Ubuntu and SSH
 
 ## What I built
 
