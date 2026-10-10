@@ -7,6 +7,8 @@
 - NPM Admin UI Runs at server-ip:81 Add proxy hosts, request certificates.
 - NPM writes real nginx config files for you, same results a sysadmin would hand-write in production.
 
+This will bring our separate networks into a shared network, simplifying our life.
+
 ## Resources
 
 Nginx Proxy Manager
