@@ -40,29 +40,15 @@ cd nginx
 
 nano docker-compose.yml
 
-services:
-  npm:
-    image: 'jc21/nginx-proxy-manager:latest'
-    restart: unless-stopped
-    ports:
-      - '80:80'
-      - '443:443'
-      - '81:81'
-    volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
-    networks:
-      - proxy
+<img width="336" height="339" alt="Screenshot 2026-10-10 at 2 51 40 PM" src="https://github.com/user-attachments/assets/0b2c93cf-fba5-4664-b7c7-106e7ff84d76" />
 
-networks:
-  proxy:
-    external: true
 
 **CLI:**
 
 docker compose up -d
 
-<img width="432" height="113" alt="image" src="https://github.com/user-attachments/assets/bbbcba9a-f43c-4a1e-b273-f0ca77520bde" />
+<img width="565" height="80" alt="Screenshot 2026-10-10 at 2 50 20 PM" src="https://github.com/user-attachments/assets/313ec70e-7808-4a3c-bc90-89eeedbacb70" />
+
 
 **Log in to NGINX & create account:**
 
