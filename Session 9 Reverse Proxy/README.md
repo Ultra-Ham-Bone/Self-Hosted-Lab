@@ -76,7 +76,7 @@ Dash.cloudflare.com
 Add a record
 
 On nginx
-Add proxy host
+Add proxy hostname/ IP:
 Port:
 
 SSL;
@@ -84,5 +84,33 @@ SSL;
 - Credential file content (to help create https certificate): (this is where your token goes)
 - Propagation (30sec)
 
+**Create user API Tokens**
+
+<img width="468" height="338" alt="image" src="https://github.com/user-attachments/assets/3fc57a26-a3f4-4b62-bd4f-fddf3ec85dcf" />
 
 
+<img width="468" height="609" alt="image" src="https://github.com/user-attachments/assets/573a07e1-02d2-4aff-93f3-08e9823557e8" />
+
+
+<img width="468" height="470" alt="image" src="https://github.com/user-attachments/assets/6342a291-edcb-4334-8bf3-980b96dc3282" />
+
+**This will create your DNS API token from Cloudflare.** 
+
+**Through your browser log into NGINX & add proxy host & paste in your token.**
+
+<img width="385" height="648" alt="image" src="https://github.com/user-attachments/assets/c68373cf-6056-4822-88ec-847ca996175c" />
+
+**It can take some time to populate in Nginx:**
+
+<img width="468" height="123" alt="image" src="https://github.com/user-attachments/assets/286be924-17ae-45d8-be9c-26fd52b12c3a" />
+
+**Back to Cloudflare to add a record:**
+
+
+<img width="468" height="273" alt="image" src="https://github.com/user-attachments/assets/33f5e294-56f8-40c9-8ac1-1fd872a7e65c" />
+
+**Looking at our connection security after doing the same for Filebrowser & we are secure:**
+
+<img width="323" height="286" alt="image" src="https://github.com/user-attachments/assets/a89f70ef-192f-46c8-9633-ecdef84d8168" />
+
+<img width="321" height="287" alt="image" src="https://github.com/user-attachments/assets/77f53af0-e1e2-48c0-9f53-49f83518398d" />
